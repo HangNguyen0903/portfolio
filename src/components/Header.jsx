@@ -19,12 +19,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400">
-                  Education
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-blue-400">
+                <a href="#skill" className="hover:text-blue-400">
                   Skill
                 </a>
               </li>
@@ -34,13 +29,13 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-blue-400">
-                  Contact
+                <a href="#active" className="hover:text-blue-400">
+                  Activate
                 </a>
               </li>
+              <ThemeToggle />
             </ul>
           </nav>
-          <ThemeToggle />
         </div>
       </header>
     </div>
